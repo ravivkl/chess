@@ -1,0 +1,66 @@
+﻿  bishop.cpp
+  board.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.h(21,29): error C2061: syntax error: identifier 'PieceColor'
+  chessgame.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.cpp(27,6): warning C4101: 'i': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(827,1): error C2338: The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\deque(571): message : see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\deque(571): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\deque(571): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\deque(571): message :             _Ty=const Board
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\deque(571): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\stack(21): message : see reference to class template instantiation 'std::deque<_Ty,std::allocator<_Ty>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\stack(21): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\stack(21): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\stack(21): message :             _Ty=const Board
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\stack(21): message :         ]
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(138): message : see reference to class template instantiation 'std::stack<const Board,std::deque<_Ty,std::allocator<_Ty>>>' being compiled
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(138): message :         with
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(138): message :         [
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(138): message :             _Ty=const Board
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(138): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(855,1): error C2535: '_Ty *std::allocator<_Ty>::address(_Ty &) noexcept const': member function already defined or declared
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(855,1): error C2535:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(855,1): error C2535:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(855,1): error C2535:             _Ty=const Board
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(855,1): error C2535:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(851): message : see declaration of 'std::allocator<_Ty>::address'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(851): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(851): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(851): message :             _Ty=const Board
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(851): message :         ]
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C3867: 'std::stack<const Board,std::deque<_Ty,std::allocator<_Ty>>>::pop': non-standard syntax; use '&' to create a pointer to member
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C3867:         with
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C3867:         [
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C3867:             _Ty=const Board
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C3867:         ]
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C2440: '=': cannot convert from 'void (__thiscall std::stack<const Board,std::deque<_Ty,std::allocator<_Ty>>>::* )(void)' to 'Board *'
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C2440:         with
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C2440:         [
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C2440:             _Ty=const Board
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,29): error C2440:         ]
+  king.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\chessgame.cpp(162,26): message : There is no context in which this conversion is possible
+  knight.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.h(21,29): error C2061: syntax error: identifier 'PieceColor'
+  main.cpp
+  pawn.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.h(21,29): error C2061: syntax error: identifier 'PieceColor'
+  piece.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.h(21,29): error C2061: syntax error: identifier 'PieceColor'
+  queen.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.h(21,29): error C2061: syntax error: identifier 'PieceColor'
+  rook.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.h(21,29): error C2061: syntax error: identifier 'PieceColor'
+  Source.cpp
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\board.h(21,29): error C2061: syntax error: identifier 'PieceColor'
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(46,11): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPTSTR'
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(46,11): message : consider using '%hs' in the format string
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(46,11): message : consider using '%s' in the format string
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(46,11): message : consider using '%Ts' in the format string
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(50,10): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPTSTR'
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(50,10): message : consider using '%hs' in the format string
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(50,10): message : consider using '%s' in the format string
+  stdafx.cpp
+  Generating Code...
+C:\Users\משתמש\Desktop\magshimim\year2\cpp\lesson7\new\chess-project-master\chessGame\chess\Pipe.h(50,10): message : consider using '%Ts' in the format string
